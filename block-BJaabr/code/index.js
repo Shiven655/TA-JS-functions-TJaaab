@@ -39,21 +39,33 @@ Write a function named `addOne` that accepts a number, adds one to the given val
 
 Do the following with above problem.
 */
+function addOne(num){
+  return num + 1;
+}
 
 // - Write a Function Declaration
+function addOne(num){
+  return num + 1;
+}
 
 // - Write a Function Expression
+let convertToString = function (n) {
+  return String(n);
+};
 
 // - Write an Arrow Function without curly brackets(if possible)
-
+let convertToString = (n) => String(n);
 // - Write an Arrow Function with curly brackets
-
+let convertToString = (n) => {
+  return String(n);
+};
 // - Execute the function
+convertToString(21);
 
 // - Execute the function and store the return value in a variable.
-
+let returnValue = convertToString(23);
 // - What is the typeof returnValue
-
+typeof returnValue is "string"
 /* 2. Subtract one
 
 Write a function named `substractOne` that accepts a number, substracts one from the given value and return it. (hint: use return keyword)
