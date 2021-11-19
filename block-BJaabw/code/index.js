@@ -11,8 +11,9 @@ minToSec(2) ➞ 120
 */
 
 // - Write a Function Decleration for above problem
-function minToSec() {
-  // Your code
+function minToSec(integer, seconds =60) {
+  let minutes = interger * seconds
+  return minutes;
 }
 // - Execute the function with required parameter
 
@@ -26,8 +27,17 @@ isInRange(1, 10, 19); // false
 */
 
 // - Write a Function Decleration for above problem
-function isInRange() {
-  // Your code
+function isInRange(n) {
+  let lower = 100;
+  let upper = 1000;
+  if(100 >n > 1000){
+    return true;{
+      else{
+        return false;
+      }
+    }
+
+  }
 }
 // - Execute the function with required parameter
 
